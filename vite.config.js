@@ -4,8 +4,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   preview: {
-    host: true,
-    port: 4173, // optional, or use $PORT in Render Start Command
-    allowedHosts: ['portfolio-7-t3xf.onrender.com']
+    host: true,          // allow Vite to listen on all network interfaces
+    port: 4173,          // optional, or let Render use $PORT
+    allowedHosts: 'all'  // allow any host, including Render’s dynamic URLs
   }
 });
+
