@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 4173, // optional, or use $PORT in Render Start Command
-    allowedHosts: ['portfolio-6-t3xf.onrender.com']
+    allowedHosts: ['portfolio-7-t3xf.onrender.com']
   }
 });
