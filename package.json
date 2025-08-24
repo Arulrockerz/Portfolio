@@ -8,8 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "start": "serve -s dist -l $PORT"
-}
-
+},
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.122.0",
